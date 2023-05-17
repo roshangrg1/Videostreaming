@@ -1,0 +1,20 @@
+ .navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(53, 53, 188);
+    height: 8vh;
+    padding: 0 4%;
+ }
+
+ a{
+    
+    text-decoration: none;
+    color: black;
+ }
+
+a li{
+    font-size: 30px;
+    list-style: none;
+
+}
