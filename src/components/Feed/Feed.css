@@ -1,0 +1,17 @@
+.feed-container{
+    display: flex;
+    color: white;
+    background-color: #000;
+    height: 92vh;
+}
+.left{
+    border-right: 1px solid white;
+    /* height: 92vh; */
+    margin-top: 30px;
+    padding: 0 10px;
+    
+}
+.copyright{
+    margin-top: 80px;
+}
+
