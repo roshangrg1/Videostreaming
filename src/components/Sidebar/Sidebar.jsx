@@ -8,6 +8,7 @@ import { GiClothes } from 'react-icons/gi'
 import { BsCashCoin } from 'react-icons/bs'
 
 
+
 const categories = [
   { name: 'New', icon: <AiFillHome />, },
   { name: 'Finance', icon: <AiFillDollarCircle />, },
@@ -27,16 +28,21 @@ const categories = [
   { name: 'Crypto', icon: <BsCashCoin />, },
 ];
 
-const selectedCategory = 'Crypto';
+// const selectedCategory = 'Crypto'; stactic variable
 
-const Sidebar = () => (
+const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
   <div className="sidebar-container" >
     {categories.map((category) => (
       <button className='sidebar-item'
-        style={{ background: `${category.name === selectedCategory && 'rgb(53, 53, 188)'}` }}
+        onClick={() => setSelectedCategory(category.name)}
+        style={{
+          background: category.name === selectedCategory ? 'rgb(53, 53, 188)' : 'transparent',
+          transition: "background-color 1s",
+        }}
+
         key={category.name}>
-        <span className='span-icon' style={{color:`${category.name=== selectedCategory ? 'white' :'rgb(53, 53, 188'}`}}>{category.icon}</span>
-        <span style={{opacity:`${category.name=== selectedCategory ? '1' :'0.5'}`}}> {category.name}</span>
+        <span className='span-icon' style={{ color: `${category.name === selectedCategory ? 'white' : 'rgb(53, 53, 188'}` }}>{category.icon}</span>
+        <span style={{ opacity: `${category.name === selectedCategory ? '1' : '0.5'}` }}> {category.name}</span>
       </button>
     )
     )}

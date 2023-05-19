@@ -1,9 +1,20 @@
 import React from 'react'
 
-const Videos = () => {
+import VideoCard from '../VideoCard/VideoCard'
+import ChannelCard from '../ChannelCard/ChannelCard'
+
+const Videos = ({ videos }) => {
+  console.log(videos)
   return (
-    <div>Videos</div>
+    <div >
+      {videos.map((item , idx)=>(
+        <div key={idx}>
+          {item.id.videoId && <VideoCard video={item}/>}
+          {/* {item.snippet.channelId && <ChannelCard channelDetail={item}/>} */}
+        </div>
+      ))}
+    </div>
   )
 }
 
-export default Videos
+export default Videos 

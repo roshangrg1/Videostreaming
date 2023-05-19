@@ -3,6 +3,8 @@
     flex-direction: column;
     gap: 10px;
     
+    
+    
 }
 .sidebar-item{
     padding: 6px 10px;
@@ -12,11 +14,13 @@
     color: #fff;
     width: 120px;
     text-align: start;
+
+
     
 
 }
 .sidebar-item:hover {
-    background-color:rgb(53, 53, 188) ;
+   background-color: blue;
     
 
 }
