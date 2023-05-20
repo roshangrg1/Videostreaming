@@ -1,0 +1,14 @@
+.channel-card{
+    margin: 40px;
+}
+
+img{
+  width: 100px;
+  border-radius: 20px;
+}
+
+h5{
+    color: #fff;
+    font-weight: 700;
+    margin-top: 15px;
+}

@@ -11,7 +11,7 @@ const Feed = () => {
 
 
   useEffect(() => {
-    fetchFromApi(`search?part=snippet&q=${{ selectedCategory }}`)
+    fetchFromApi(`search?part=snippet&q=${ selectedCategory }`)
     .then((data)=>{
       setVideos(data.items)
     })
@@ -26,7 +26,7 @@ const Feed = () => {
       </div>
       <div className="right">
         <h4>{selectedCategory}<span style={{ color: '#3535BC' }}>Videos</span></h4>
-        <Videos videos={videos}/>
+        <Videos videos={videos} />
       </div>
     </div>
   )
