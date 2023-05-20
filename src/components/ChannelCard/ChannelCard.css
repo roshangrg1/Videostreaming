@@ -1,7 +1,15 @@
 .channel-card{
-    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
-
+.card-content{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 img{
   width: 100px;
   border-radius: 20px;
