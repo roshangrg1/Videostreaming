@@ -1,44 +1,43 @@
 .video-card-container{
-    width: 300px;
     background: #000;
-    /* margin: 20px 20px; */
-    margin-left: 10px;
-    
-   box-shadow: 'none';
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
     
     transition: 0.7s;
+    
+}
+.video-card-container:hover{
+    background-color: #121212;
+    box-shadow: 10px 10px 6px #2a2828;
+}
+
+.video-card-container img{
+     height: 180px;
+      width: 300px;
+     border-radius:0px ;
+     padding: 5px;
 }
 
 .video-card-container:hover{
-    height: 260px;
-    width: 305px;
+    /* height: 305px;
+    width: 305px; */
 }
 
 
 .video-content{
-    height: 70px;
-    width: 300px;
+   padding: 5px;
     
 }
 
-/* .video-content:hover{
-    background-color: gray;
-} */
-.video-content p{
-    color: rgb(82, 81, 81);
-   
-  
-    
-}
+
 .video-content h5{
     color: #fff;
     margin-bottom: 10px;
     font-weight: 400;
     font-size: 16px;
 }
+.video-content p{
+    color: rgb(82, 81, 81);   
+}
+

@@ -19,7 +19,7 @@ const Feed = () => {
   return (
     <div className='feed-container'>
       <div className="left">
-        <Sidebar 
+        <Sidebar className='sidebar'
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory} />
         <p className='copyright'>copyright @roshan Guragain</p>

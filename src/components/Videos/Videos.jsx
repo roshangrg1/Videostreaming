@@ -5,6 +5,7 @@ import VideoCard from '../VideoCard/VideoCard'
 import ChannelCard from '../ChannelCard/ChannelCard'
 
 const Videos = ({ videos }) => {
+  if (!videos.length) return 'loading'
   console.log(videos)
   return (
     <div className='videos-container'>
