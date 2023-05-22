@@ -11,7 +11,7 @@ import { BsCashCoin } from 'react-icons/bs'
 
 const categories = [
   { name: 'New', icon: <AiFillHome />, },
-  { name: 'CedarGateNepal', icon: <AiFillDollarCircle />, },
+  { name: 'Finance', icon: <AiFillDollarCircle />, },
   { name: 'Coding', icon: <AiFillCode />, },
   { name: 'News', icon: <TiNews />, },
   { name: 'Music', icon: <SiYoutubemusic /> },

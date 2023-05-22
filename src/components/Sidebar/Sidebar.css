@@ -3,9 +3,10 @@
     flex-direction: column;
     gap: 10px;
     
-    
+    margin-right: 20px;
     
 }
+
 .sidebar-item{
     padding: 6px 10px;
     border: none;
@@ -19,11 +20,7 @@
     
 
 }
-.sidebar-item:hover {
-   background-color: blue;
-    
 
-}
 .span-name{
     margin-right: 10px;
 }

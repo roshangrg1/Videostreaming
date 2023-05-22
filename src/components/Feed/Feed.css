@@ -1,17 +1,42 @@
 .feed-container{
+    /* background-color: yellow; */
+    padding: 10px 0;
     display: flex;
-    color: white;
-    background-color: #000;
-    height: 92vh;
-}
-.left{
-    border-right: 1px solid white;
-    /* height: 92vh; */
-    margin-top: 30px;
-    padding: 0 10px;
+    gap: 30px;
+    margin-top: 50px;
+    /* justify-content: center; */
+    /* position: relative; */
+
     
 }
-.copyright{
-    margin-top: 80px;
+.left{
+    /* background: pink; */
+    position: sticky;
+    top: 10vh;
+    left: 0px;
+    bottom: 20vh;
+    height: 92vh;
+    border-right: 1px solid rgb(255, 255, 255);
+    
+}
+.right{
+    /* background: orange; */
+    /* flex: 1;  */
+    
 }
 
+h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+   
+}
+.copyright{
+    color: #fff;
+    /* position: fixed; */
+    margin-top: 50px;
+    
+
+}
