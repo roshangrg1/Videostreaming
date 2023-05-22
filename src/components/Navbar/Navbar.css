@@ -5,6 +5,10 @@
     background-color: rgb(53, 53, 188);
     height: 8vh;
     padding: 0 4%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0
  }
 
  a{
