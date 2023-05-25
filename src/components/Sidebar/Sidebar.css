@@ -16,7 +16,7 @@
     width: 120px;
     text-align: start;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 650px) {
    .sidebar-item{
     width: 30px;
    }
@@ -27,7 +27,7 @@
 }
 
  
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 650px) {
     .category-name{
         display: none;
     }
