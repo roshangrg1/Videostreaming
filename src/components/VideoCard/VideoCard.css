@@ -7,6 +7,7 @@
     transition: 0.7s;
     
 }
+
 .video-card-container:hover{
     background-color: #121212;
     box-shadow: 10px 10px 6px #2a2828;
@@ -19,6 +20,23 @@
      padding: 5px;
 }
 
+@media screen and (max-width: 450px) {
+    .video-card-container{
+        width: 250px;
+       }
+    .video-card-container img{
+     width: 250px;
+    }
+ }
+
+ @media screen and (max-width: 360px) {
+    .video-card-container{
+        width: 200px;
+       }
+    .video-card-container img{
+     width: 200px;
+    }
+ }
 .video-card-container:hover{
     /* height: 305px;
     width: 305px; */
