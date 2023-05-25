@@ -15,13 +15,20 @@
     color: #fff;
     width: 120px;
     text-align: start;
-
-
-    
-
+}
+@media screen and (max-width: 950px) {
+   .sidebar-item{
+    width: 30px;
+   }
 }
 
-.span-name{
-    margin-right: 10px;
+.category-name{
+    margin-left: 10px;
 }
 
+ 
+@media screen and (max-width: 950px) {
+    .category-name{
+        display: none;
+    }
+}

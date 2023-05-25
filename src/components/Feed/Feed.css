@@ -1,11 +1,11 @@
 .feed-container{
-    /* background-color: yellow; */
     padding: 10px 0;
     display: flex;
     gap: 30px;
     margin-top: 50px;
-    /* justify-content: center; */
-    /* position: relative; */
+
+    min-width: 92vh;
+    
 
     
 }
@@ -14,8 +14,8 @@
     position: sticky;
     top: 10vh;
     left: 0px;
-    bottom: 20vh;
-    height: 92vh;
+    /* bottom: 20vh; */
+    height: 88vh;
     border-right: 1px solid rgb(255, 255, 255);
     
 }

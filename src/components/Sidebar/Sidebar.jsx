@@ -42,7 +42,7 @@ const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
 
         key={category.name}>
         <span className='span-icon' style={{ color: `${category.name === selectedCategory ? 'white' : 'rgb(53, 53, 188'}` }}>{category.icon}</span>
-        <span style={{ opacity: `${category.name === selectedCategory ? '1' : '0.5'}` }}> {category.name}</span>
+        <span className='category-name' style={{ opacity: `${category.name === selectedCategory ? '1' : '0.5'}` }}> {category.name}</span>
       </button>
     )
     )}
