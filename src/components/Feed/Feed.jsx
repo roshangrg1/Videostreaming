@@ -26,7 +26,7 @@ const Feed = () => {
       </div>
       <div className="right">
         <h4>{selectedCategory}<span style={{ color: '#3535BC',marginLeft:'10px' }}>Videos</span></h4>
-        <Videos videos={videos} />
+        <Videos videos={videos} justifyContent='center' />
       </div>
     </div>
   )

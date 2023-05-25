@@ -19,7 +19,7 @@ const SearchFeed = () => {
   return (
     <div className="search-feed">
 
-      <Videos videos={videos} />
+      <Videos videos={videos} justifyContent='center' />
     </div>
   )
 }

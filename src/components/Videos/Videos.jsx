@@ -4,11 +4,11 @@ import './Videos.css'
 import VideoCard from '../VideoCard/VideoCard'
 import ChannelCard from '../ChannelCard/ChannelCard'
 
-const Videos = ({ videos }) => {
+const Videos = ({ videos, justifyContent }) => {
   if (!videos.length) return 'loading'
   console.log(videos)
   return (
-    <div className='videos-container'>
+    <div className='videos-container'style={{justifyContent}} >
       {videos.map((item , idx)=>(
         <div key={idx} >
           {item.id.videoId && <VideoCard video={item}/>}

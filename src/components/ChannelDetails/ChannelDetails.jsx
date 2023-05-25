@@ -21,17 +21,13 @@ const ChannelDetails = () => {
   }, [id])
   return (
     <div className='channel-details-container'>
-      <div className="">
+      <div className="upper-details">
         <div className="cover" style={{ height: '300px', background: '#F0DEDE' }}></div>
         <ChannelCard channelDetail={channelDetail} marginTop={'-50px'} />
       </div>
-
-      <div>
-        <div>
-          <Videos videos={videos} />
+        <div className='videocontainer' >
+          <Videos videos={videos} justifyContent='center'/>
         </div>
-
-      </div>
     </div>
 
   )
