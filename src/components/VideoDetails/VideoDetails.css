@@ -13,14 +13,28 @@
 }
 
 .upper {
-    height: 90vh;
-    flex: 0.7;
+    height: 92vh;
+    flex: 0.8;
     background-color: rgb(40, 37, 38);
     z-index: 1;
 
 }
+.upper-content{
+    height:600px;
+}
 
+@media screen and (max-width: 950px) {
+    .upper {
+        height: 300px;
+    }
+    .upper-content{
+        height: 300px;
+    }
+}
 
+.video-player{
+    height: 400px;
+}
 .video-title {
     font-size: 20px;
     margin-top: 20px;
@@ -30,6 +44,10 @@
     .video-title {
         font-size: 15px;
     }
+    .video-player{
+        height: 200px;
+    }
+
 }
 
 
@@ -66,5 +84,22 @@
 
 .lower {
     background-color: #0c0c0c;
-    flex: 0.3;
+    flex:0.4 ;
+}
+
+@media screen and (max-width: 950px) {
+    .video-title{
+        margin-top: 5px;
+    }
+   .channel-title {
+    margin-top: 5px;
+   }
+    .view{
+    margin-top: 5px;
+   }
+   .like{
+    margin-top: 5px;
+   }
+   
+
 }

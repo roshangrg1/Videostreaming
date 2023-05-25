@@ -30,8 +30,10 @@ const VideoDetails = () => {
     <div className='video-details-container'>
       <div className="upper" style={{ position: 'sticky', top: '8vh' }}>
         <div className="upper-content" >
-
-          <ReactPlayer url={`https://www.youtube.com/watch?v=${id}`} controls width='auto' />
+          <div className="video-player">
+          <ReactPlayer url={`https://www.youtube.com/watch?v=${id}`} controls height='100%' width='auto' />
+          </div>
+         
           <h5 className='video-title'>{VideoDetail?.snippet?.title}</h5>
           <Link to={`/channel/${VideoDetail?.snippet?.channelId}`}>
             <div className="channel-title">
