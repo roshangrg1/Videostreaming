@@ -1,5 +1,5 @@
 
-# Video Streaming Platform. [golive](https://videostreame.netlify.app/)
+# Video Streaming Platform. [golive](https://videostreambyroshan.netlify.app/)
 
 ## About 
     Video Streaming platform (STREAMME) is a complete frontend application that can search videos, stream videos, see view count,
